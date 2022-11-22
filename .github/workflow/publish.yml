@@ -1,4 +1,4 @@
-name: Publish to GitHub Pages
+name: Publish Antora to GitHub Pages
 on:
   push:
     branches: [main]
