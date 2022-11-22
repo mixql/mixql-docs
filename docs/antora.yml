@@ -1,6 +1,6 @@
 name: grenki
 version: '0.1'
-prerelease: '.0-alpha.2'
+prerelease: '.0-alpha.3'
 title: Grenki Grammar
 start_page: main.adoc
 
