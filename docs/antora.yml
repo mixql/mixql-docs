@@ -1,5 +1,5 @@
-name: antora
-# version: '3.2'
-# prerelease: '.0-alpha.2'
-title: Antora test site
+name: grenki
+version: '0.1'
+prerelease: '.0-alpha.2'
+title: Grenki Grammar
 

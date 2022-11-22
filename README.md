@@ -17,6 +17,7 @@
 ## Quick test
 
     docker run -v $PWD:/antora --rm -t antora/antora --stacktrace antora-playbook.yml
+    touch build/site/.nojekyll
 
 
 ## Examples
