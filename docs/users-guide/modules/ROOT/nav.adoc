@@ -1,0 +1,20 @@
+* xref:index.adoc[]
+* xref:quick-start.adoc[Quick Start]
+* xref:get-started/index.adoc[Get started]
+* xref:get-started/installation.adoc[]
+// ** xref:technical-writing/installing-intellij.adoc[]
+// ** xref:technical-writing/starting-intellij-first-time.adoc[]
+// ** xref:technical-writing/opening-the-first-project.adoc[]
+// ** xref:technical-writing/editor-the-file-asciidoc-file.adoc[]
+// ** xref:technical-writing/navigating-in-a-project.adoc[]
+// ** xref:technical-writing/searching-in-a-project.adoc[]
+// ** xref:technical-writing/git-integration.adoc[]
+* xref:installation.adoc[]
+* xref:features.adoc[]
+** xref:features/editor.adoc[]
+// ** Advanced
+// The following list is sorted alphabetically to help users find the contents.
+// Keep it sorted when adding new content.
+// *** xref:features/advanced/asciidoclet.adoc[]
+* xref:faq.adoc[]
+** xref:faq/faq1.adoc[]

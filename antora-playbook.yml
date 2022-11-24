@@ -2,12 +2,20 @@ site:
   title: Grenki Project
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://ntlegion.github.io/mixql_docs/
-  #start_page: component-b::index.adoc
+  start_page: users-guide::index.adoc
 content:
   sources:
-  - url: https://github.com/ntlegion/mixql_docs.git
-  #- url: .
-    start_path: docs
+    #  For local "author mode" builds check out this antora playbook project
+    #  and the site project next to one another and uncomment the next lines and comment out the other - url
+    - url: .
+      start_path: docs/users-guide
+    - url: .
+      start_path: docs/contributors-guide
+      branches: HEAD
+    # For "production" build without needing a local site checkout uncomment the next two lines and comment out the previous Local.
+    #  - url: https://github.com/ntlegion/mixql_docs.git
+    #    branches: master
+
 
 asciidoc:
   attributes:
