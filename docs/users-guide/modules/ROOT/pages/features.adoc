@@ -1,6 +1,6 @@
-= How Grenki Can Help You and Your Team
-:keywords: sql, grenki,
-:navtitle: How Grenki Can Help
+= How MixQL Can Help You and Your Team
+:keywords: sql, MixQL,
+:navtitle: How MixQL Can Help
 
 == Agile and secure
 

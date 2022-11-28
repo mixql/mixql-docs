@@ -1,5 +1,5 @@
-= What's New in Grenki {page-component-version}
-:description: The new features, changes, and bug fixes included in Grenki {page-component-version} and its patch releases.
+= What's New in MixQL {page-component-version}
+:description: The new features, changes, and bug fixes included in MixQL {page-component-version} and its patch releases.
 :doctype: book
 :route: New
 :url-releases: https://github.com/ntlegion/mixql_docs/releases
@@ -8,10 +8,10 @@
 :url-milestone-3-2-0: {url-issues}?scope=all&state=closed&label_name%5B%5D=%5BVersion%5D%203.2.0
 :url-mr: {url-repo}/merge_requests
 
-== Grenki {page-component-display-version}
+== MixQL {page-component-display-version}
 _**Release date:** TBD | *Issue label:* {url-milestone-3-2-0}[3.2.0^]_
 
-The primary focus of Grenki {page-component-version} is to provide and refine certain API methods and endpoints to support the development of Grenki extensions.
+The primary focus of MixQL {page-component-version} is to provide and refine certain API methods and endpoints to support the development of MixQL extensions.
 This release also added syntax for the inclusion and exclusion matching of worktrees and the ability to use the `ref` placeholder in the `edit_url` key.
 
 You can find a summary of the issues resolved in this release below.
@@ -60,5 +60,5 @@ Site generator:: Look for IS_TTY on `playbook.env` in site generator to decouple
 
 == Thank you!
 
-Most important of all, a huge *thank you!* to all the folks who helped make Grenki even better.
+Most important of all, a huge *thank you!* to all the folks who helped make MixQL even better.
 

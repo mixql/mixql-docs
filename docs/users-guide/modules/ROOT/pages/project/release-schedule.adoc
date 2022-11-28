@@ -1,15 +1,15 @@
-= Grenki Release Schedule
+= MixQL Release Schedule
 :navtitle: Release Schedule
 :page-aliases: version-and-lifecycle-policies.adoc, project/roadmap.adoc
 :table-caption!:
 
-Each major release line of the Grenki Core components is typically supported for one year after it enters general availability (GA).
+Each major release line of the MixQL Core components is typically supported for one year after it enters general availability (GA).
 
 [cols=6*]
 |===
 |Release Line |Latest Release |Status |GA |Maintenance |EOL
 
-|Grenki 1
+|MixQL 1
 |{release-version}
 |Active
 |2022/12/01
@@ -17,7 +17,7 @@ Each major release line of the Grenki Core components is typically supported for
 |TBD
 |===
 
-General Availability (GA):: A release line, such as Grenki 2.x, enters general availability on the date the initial, final major version (e.g., Grenki 2.0.0) of the software is released and available for download.
+General Availability (GA):: A release line, such as MixQL 2.x, enters general availability on the date the initial, final major version (e.g., MixQL 2.0.0) of the software is released and available for download.
 
 Active:: Release line is being actively improved and supported.
 
@@ -28,8 +28,8 @@ End of Life (EOL):: The date after which the release line no longer receives sup
 
 == Version policy
 
-Grenki follows the semantic versioning rules.
-Each Grenki component release is versioned *major.minor.patch*.
+MixQL follows the semantic versioning rules.
+Each MixQL component release is versioned *major.minor.patch*.
 
 Major::
 Major releases occur when there are substantial changes in functionality or when new functionality breaks backwards compatibility.

@@ -1,4 +1,4 @@
-= Overview of the Grenki Project
+= Overview of the MixQL Project
 :navtitle: Overview
 :keywords: sql, engine, spark
 :description: Run SQL on multiple engines from one code. \
@@ -9,10 +9,10 @@ Run common language scripts from one code. \
 This is the start page of project's documentation, and therefore likely the first thing people read.
 This doc provides a brief overview of the functionality this project provides.
 
-Write about why it is a good idea to use Grenki (and maybe when not to use it).
+Write about why it is a good idea to use MixQL (and maybe when not to use it).
 Mention unique-selling-propositions (USP) that differentiate this project from others.
 
-Assumed reader type: someone who is new to the project, but might have heard about Grenki before.
+Assumed reader type: someone who is new to the project, but might have heard about MixQL before.
 
 Asciidoc quick reference^ https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
 ////

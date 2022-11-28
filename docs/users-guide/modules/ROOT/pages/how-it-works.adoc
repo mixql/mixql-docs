@@ -1,4 +1,4 @@
-= How Grenki Works
+= How MixQL Works
 
 == Steps in the default generator pipeline
 

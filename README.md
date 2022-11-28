@@ -6,6 +6,7 @@
 - https://github.com/ntlegion/mixql_docs  This repo
 - https://antora.zulipchat.com/ Antora chat
 - https://docs.antora.org/antora/latest/how-antora-works/ Antora Docs
+- https://docs.antora.org/antora-ui-default/ Antora UI
 
 ### Antora Deploy    
 - https://gitlab.com/antora/docker-antora Docker Antora
@@ -20,6 +21,7 @@
 
 ## Quick test
 
+    rm -rf ./build/* 
     docker run -v $PWD:/antora --rm -t antora/antora --stacktrace antora-playbook.yml
     touch build/site/.nojekyll
 
@@ -38,3 +40,8 @@
 - https://github.com/apache/solr/tree/main/solr/solr-ref-guide
 - https://docs.magnolia-cms.com/welcome/index.html 
 
+### UI examples
+- https://gitlab.com/antora/antora-ui-default
+- https://github.com/asciidoctor/asciidoctor-docs-ui 
+- https://github.com/apache/felix-antora-ui 
+- https://github.com/apache/solr/tree/main/solr/solr-ref-guide 

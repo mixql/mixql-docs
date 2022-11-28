@@ -1,4 +1,4 @@
-= Grenki Copyright and License
+= MixQL Copyright and License
 :navtitle: Copyright and License
 
 == Copyright
@@ -7,7 +7,7 @@ Copyright (C) 2022-present
 
 == License
 
-Use of Grenki is granted under the terms of the https://www.mozilla.org/en-US/MPL/2.0[Mozilla Public License Version 2.0 (MPL-2.0)].
+Use of MixQL is granted under the terms of the https://www.mozilla.org/en-US/MPL/2.0[Mozilla Public License Version 2.0 (MPL-2.0)].
 
 == Trademarks
 

@@ -1,4 +1,4 @@
-= Grenki Project Glossary
+= MixQL Project Glossary
 ifndef::env-site,env-github[]
 include::_attributes.adoc
 endif::[]

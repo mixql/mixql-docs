@@ -1,5 +1,5 @@
 site:
-  title: Grenki Project
+  title: MixQL Project
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://ntlegion.github.io/mixql_docs/
   start_page: users-guide::index.adoc
@@ -13,15 +13,10 @@ content:
     #  - url: https://github.com/ntlegion/mixql_docs.git
     #    branches: master
 
-#antora:
-#  extensions:
-#    - '@antora/lunr-extension'
-
-
- 
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+#    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://github.com/asciidoctor/asciidoctor-docs-ui/releases/download/prod-293/ui-bundle.zip
     snapshot: true
   supplemental_files:
     - path: ui.yml
@@ -29,3 +24,13 @@ ui:
         static_files:
         - .nojekyll
     - path: .nojekyll
+
+output:
+  clean: true
+
+runtime:
+  fetch: true
+#antora:
+#  extensions:
+#    - require: '@antora/lunr-extension'
+#      index_latest_only: true
