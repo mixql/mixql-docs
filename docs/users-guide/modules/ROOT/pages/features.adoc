@@ -1,1 +1,34 @@
-= Features
+= How Grenki Can Help You and Your Team
+:keywords: sql, grenki,
+:navtitle: How Grenki Can Help
+
+== Agile and secure
+
+*Automate the assembly of your secure, nimble static site as changes happen instead of wrestling with a CMS giant.*
+
+Rebuild and deploy your site automatically in a matter of seconds in response to any change.
+
+== SQL: Minimal markup, maximum functionality
+
+*Document using an intuitive syntax designed specifically for technical documentation that's lightweight, yet comprehensive.*
+
+
+
+== Navigation as content
+
+*Describe the documentation navigation using AsciiDoc lists.*
+
+Writers using Antora can feel right at home when defining navigation.
+Why?
+
+
+== Interchangeable UI
+
+*The site's user interface and theme is maintained separately from the content.*
+
+
+
+== Sensible defaults. Open architecture.
+
+*Start with the default.*
+

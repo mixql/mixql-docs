@@ -1,0 +1,6 @@
+.Get Grenki
+* xref:linux-requirements.adoc[]
+* xref:windows-requirements.adoc[]
+* xref:install-grenki.adoc[]
+* xref:upgrade-grenki.adoc[]
+* xref:supported-platforms.adoc[]

@@ -1,1 +1,2 @@
-= FAQ
+= Frequently asked questions (FAQ)
+:navtitle:Frequently asked questions

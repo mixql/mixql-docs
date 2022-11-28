@@ -9,20 +9,15 @@ content:
     #  and the site project next to one another and uncomment the next lines and comment out the other - url
     - url: .
       start_path: docs/users-guide
-    - url: .
-      start_path: docs/contributors-guide
-      branches: HEAD
     # For "production" build without needing a local site checkout uncomment the next two lines and comment out the previous Local.
     #  - url: https://github.com/ntlegion/mixql_docs.git
     #    branches: master
 
+#antora:
+#  extensions:
+#    - '@antora/lunr-extension'
 
-asciidoc:
-  attributes:
-    experimental: ''
-    idprefix: ''
-    idseparator: '-'
-    page-pagination: ''
+
  
 ui:
   bundle:

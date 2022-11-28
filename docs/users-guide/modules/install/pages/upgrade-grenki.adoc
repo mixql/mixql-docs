@@ -1,0 +1,10 @@
+= Upgrade Grenki
+
+On this page, you'll learn:
+
+* [x] How to upgrade Node.js.
+* [x] How to upgrade Grenki globally.
+* [x] How to upgrade the Grenki CLI and site generator individually.
+
+NOTE: If you're already on Grenki and ready to upgrade to Grenki {page-component-version}, skip the next section and go directly to <>.
+

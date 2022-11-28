@@ -1,0 +1,9 @@
+* xref:faq.adoc[]
+** xref:faq/faq1.adoc[]
+* xref:glossary.adoc[]
+
+.Project Governance
+* xref:project/release-schedule.adoc[]
+* xref:project/copyright-and-license.adoc[]
+* xref:project/get-help.adoc[]
+

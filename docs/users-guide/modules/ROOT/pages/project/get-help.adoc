@@ -1,0 +1,24 @@
+= Get Help
+:url-issues: {url-repo}/issues
+:url-twitter: https://twitter.com/antoraproject
+:url-twitter-hash: https://twitter.com/hashtag/antora?src=hash
+:url-contributing: https://gitlab.com/antora/antora/blob/main/contributing.adoc
+
+== Chat
+
+
+== Issues
+
+
+* {url-issues}[Issue tracker^] (GitHub)
+
+Any significant change to the software or decision about the project must be logged in the issue tracker.
+
+== Twitter
+
+If you want to share your experience with Antora or help promote it, we encourage you to post about it on social media.
+
+
+== Code and content contributions
+
+

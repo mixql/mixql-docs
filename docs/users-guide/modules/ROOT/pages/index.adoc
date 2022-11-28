@@ -13,8 +13,9 @@ Write about why it is a good idea to use Grenki (and maybe when not to use it).
 Mention unique-selling-propositions (USP) that differentiate this project from others.
 
 Assumed reader type: someone who is new to the project, but might have heard about Grenki before.
+
+Asciidoc quick reference^ https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
 ////
 
 {description}
-Description - Some words.
 

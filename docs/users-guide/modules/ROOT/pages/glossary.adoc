@@ -1,0 +1,64 @@
+= Grenki Project Glossary
+ifndef::env-site,env-github[]
+include::_attributes.adoc
+endif::[]
+:page-aliases: general:getting-started:glossary.adoc
+
+Authorized short versions of some product names are presented in parentheses, for example: Anypoint Design Center (Design Center).
+
+== A
+access management::
+Anypoint Platform features that help you manage your account and configure access and permissions within your organization. A REST API provides programmatic control of access-related resources.
+
+agent::
+A service, such as the Runtime Manager agent, that is used by or associated with Mule but is not a Mule-managed service component. An agent is registered with the Anypoint Runtime Manager and has the same lifecycle as the corresponding Mule instance, so you can initialize and destroy resources when the Mule instance starts or stops.
+
+////
+It includes the [API Designer], which allows you to write a [RAML] definition of your API. It also includes tools to monitor usage metrics, apply [policies] and to expose interactive documentation through an [API Portal]
+////
+
+API Portal::
+An access point where you can present an API to attract users.
+
+////
+How is this different from a private Exchange portal?
+////
+
+
+== C
+
+CloudHub::
+Integration platform as a service that lets you manage applications in the cloud. When deploying an application to the cloud through the Runtime Manager console, CloudHub is used in the background.
+
+component::
+1. In Anypoint Platform, a POJO, Spring bean, Java bean, or a script such as Groovy, Ruby, Python, or JavaScript that contains the business logic for processing messages passing through Mule. These components typically take the whole message - or just the payload - as input. They return an object that becomes the message payload for the next element in the message processor chain.
+
+2. Generically, an architecturally specific portion of a software package.
+
+configuration builder::
+A class that parses a configuration file. The default configuration builder is the `org.mule.config.MuleXmlConfigurationBuilder` class, which parses a Mule XML configuration file.
+
+
+== D
+dataloader.io::
+The data loader for Salesforce.
+
+== O
+
+organization::
+The container for everything in your Anypoint Platform account.
+
+== P
+
+Pivotal Cloud Foundry::
+A cloud computing platform as a service (PaaS) provided by the company Pivotal. Anypoint Platform integrates with Pivotal Cloud Foundry, allowing you to deploy Mule applications to dynamically created virtual machines on your own private network. See deployment strategies. Previously referred to as PCF.
+
+== U
+
+universal message object (UMO)::
+Obsolete name for service component. UMO is still visible in some MuleSoft APIs.
+
+== X
+
+XA transaction::
+A transaction that enlists multiple managed resources and provides guaranteed reliability. Mule runtime engine also supports multi-resource transactions that are not XA transactions. These transactions do not have guaranteed reliability.

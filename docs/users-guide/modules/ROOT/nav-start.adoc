@@ -1,0 +1,4 @@
+* xref:index.adoc[]
+* xref:whats-new.adoc[]
+* xref:features.adoc[]
+* xref:how-grenki-works.adoc[]

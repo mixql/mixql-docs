@@ -27,6 +27,8 @@
 - https://docsearch.algolia.com/docs/what-is-docsearch 
 
 ## Examples
+- https://github.com/asciidoctor/asciidoc-docs
+- https://github.com/asciidoctor/asciidoctor-intellij-plugin/tree/main/doc
 - https://docs.mulesoft.com/general/
 - https://github.com/apache/felix-antora-site
 - https://github.com/apache/isis-antora
@@ -34,5 +36,5 @@
 - https://github.com/Deep-Symmetry/beat-link-trigger/tree/guide-7.0/doc
 - https://datahandwerk.gitlab.io/dhw/index.html
 - https://github.com/apache/solr/tree/main/solr/solr-ref-guide
-- 
+- https://docs.magnolia-cms.com/welcome/index.html 
 

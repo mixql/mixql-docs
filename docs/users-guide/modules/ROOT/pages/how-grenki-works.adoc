@@ -1,0 +1,7 @@
+= How Grenki Works
+
+== Steps in the default generator pipeline
+
+The steps listed in this section describe the operations the site generator performs.
+Certain operations are executed asynchronously, so some of the steps below may occur in a different order or happen simultaneously.
+For example, the UI is fetched and loaded while the content is being aggregated to optimize use of the network.

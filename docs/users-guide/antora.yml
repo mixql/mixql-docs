@@ -1,5 +1,27 @@
 title: User’s Guide
 name: users-guide
-version: ~
+# https://semver.org/
+version: 'v1.0.0'
+prerelease: -alpha.1
+#display_version: '0.0.1 Spiny'
+#prerelease: false
 nav:
-  - modules/ROOT/nav.adoc
+  - modules/ROOT/nav-start.adoc
+  - modules/install/nav.adoc
+  - modules/ROOT/nav-getting-started.adoc
+  - modules/ROOT/nav-conf.adoc
+  - modules/ref/nav.adoc
+  - modules/ROOT/nav-end.adoc
+
+asciidoc:
+  attributes:
+    url-repo: https://github.com/ntlegion/mixql_docs
+    release-date: 2022-11-28
+    release-tag: latest
+    release-version: '1.0.0'
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: ''
+
+
