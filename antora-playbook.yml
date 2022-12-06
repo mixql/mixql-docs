@@ -1,36 +1,57 @@
 site:
   title: MixQL Project
   # the 404 page and sitemap files only get generated when the url property is set
-  url: https://ntlegion.github.io/mixql_docs/
+  url: https://ntlegion.github.io/mixql-docs/
   start_page: users-guide::index.adoc
+  robots: allow
 content:
   sources:
     #  For local "author mode" builds check out this antora playbook project
     #  and the site project next to one another and uncomment the next lines and comment out the other - url
     - url: .
-      start_path: docs/users-guide
-    # For "production" build without needing a local site checkout uncomment the next two lines and comment out the previous Local.
-    #  - url: https://github.com/ntlegion/mixql_docs.git
-    #    branches: master
+      start_paths: docs/users-guide
+      branches:
+        - HEAD
+    - url: mixql-core
+      start_path: docs
+    - url: mixql-cluster
+      start_path: docs
+    - url: mixql-protobuf
+      start_path: docs
+#    - url: https://github.com/ntlegion/mixql-protobuf
+#      branches: master
+#      start_path: docs
+#    - url: https://github.com/ntlegion/mixql-core
+#      branches: master
+#      start_path: docs
+#    - url: https://github.com/ntlegion/mixql-cluster
+#      branches: master
+#      start_path: docs
+#    - url: https://github.com/ntlegion/mixql-core
+#      branches: master
+#      start_path: docs
+
 
 ui:
   bundle:
-#    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
-    url: https://github.com/asciidoctor/asciidoctor-docs-ui/releases/download/prod-293/ui-bundle.zip
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+#    url: https://github.com/asciidoctor/asciidoctor-docs-ui/releases/download/prod-293/ui-bundle.zip
     snapshot: true
-  supplemental_files:
-    - path: ui.yml
-      contents: |
-        static_files:
-        - .nojekyll
-    - path: .nojekyll
+  supplemental_files: ./ui-src
+#    - path: ui.yml
+#      contents: |
+#        static_files:
+#        - .nojekyll
+#    - path: .nojekyll
+
 
 output:
   clean: true
+  dir: ./public
 
 runtime:
   fetch: true
-#antora:
-#  extensions:
-#    - require: '@antora/lunr-extension'
-#      index_latest_only: true
+antora:
+  extensions:
+    - require: '@antora/lunr-extension'
+      index_latest_only: true

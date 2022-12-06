@@ -1,0 +1,8 @@
+# https://docs.antora.org/antora/latest/antora-container/
+
+FROM antora/antora
+RUN yarn global add @antora/lunr-extension
+
+
+# docker build -t local/antora:lunr -f Dockerfile.lunr .
+# docker run -v $PWD:/antora --rm -t local/antora:lunr --extension @antora/lunr-extension  --stacktrace antora-playbook.yml
