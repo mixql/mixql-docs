@@ -8,28 +8,31 @@ content:
   sources:
     #  For local "author mode" builds check out this antora playbook project
     #  and the site project next to one another and uncomment the next lines and comment out the other - url
-    - url: .
-      start_paths: docs/users-guide
-      branches:
-        - HEAD
-    - url: mixql-core
+#    - url: .
+#      start_paths: docs/users-guide
+#      branches:
+#        - HEAD
+#    - url: mixql-core
+#      start_path: docs
+#    - url: mixql-cluster
+#      start_path: docs
+#    - url: mixql-protobuf
+#      start_path: docs
+    - url: https://github.com/ntlegion/mixql-docs
+      branches: main
+      start_path: docs/user-guide
+    - url: https://github.com/ntlegion/mixql-protobuf
+      branches: main
       start_path: docs
-    - url: mixql-cluster
+    - url: https://github.com/ntlegion/mixql-core
+      branches: develop
       start_path: docs
-    - url: mixql-protobuf
+    - url: https://github.com/ntlegion/mixql-cluster
+      branches: master
       start_path: docs
-#    - url: https://github.com/ntlegion/mixql-protobuf
-#      branches: master
-#      start_path: docs
-#    - url: https://github.com/ntlegion/mixql-core
-#      branches: master
-#      start_path: docs
-#    - url: https://github.com/ntlegion/mixql-cluster
-#      branches: master
-#      start_path: docs
-#    - url: https://github.com/ntlegion/mixql-core
-#      branches: master
-#      start_path: docs
+    - url: https://github.com/ntlegion/mixql-core
+      branches: master
+      start_path: docs
 
 
 ui:
