@@ -19,19 +19,19 @@ content:
 #    - url: mixql-protobuf
 #      start_path: docs
     - url: https://github.com/ntlegion/mixql-docs
-      branches: main
+      branches: [main]
       start_path: docs/users-guide
     - url: https://github.com/ntlegion/mixql-protobuf
-      branches: main
+      branches: [main]
       start_path: docs
     - url: https://github.com/ntlegion/mixql-core
-      branches: develop
+      branches: [develop]
       start_path: docs
     - url: https://github.com/ntlegion/mixql-cluster
-      branches: master
+      branches: [master]
       start_path: docs
     - url: https://github.com/ntlegion/mixql-core
-      branches: master
+      branches: [master]
       start_path: docs
 
 
@@ -40,12 +40,13 @@ ui:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
 #    url: https://github.com/asciidoctor/asciidoctor-docs-ui/releases/download/prod-293/ui-bundle.zip
     snapshot: true
-  supplemental_files: ./ui-src
-#    - path: ui.yml
-#      contents: |
-#        static_files:
-#        - .nojekyll
-#    - path: .nojekyll
+  supplemental_files:
+    - ./ui-src
+    - path: ui.yml
+      contents: |
+        static_files:
+        - .nojekyll
+    - path: .nojekyll
 
 
 output:
