@@ -9,6 +9,7 @@
 - https://github.com/owncloud/docs Antora best practice from Owncloud
 - https://redhat-documentation.github.io/modular-docs/#introduction_{context} Redhat modular doc
 - https://docs.magnolia-cms.com/product-docs/6.2/contribute/index.html Example: How to contribute 
+- https://antora.zulipchat.com/#narrow/stream/282405-tips-.F0.9F.92.A1/topic/playbook.20branch/near/301914551 Playbook in branch
 
 ### Antora Deploy    
 - https://gitlab.com/antora/docker-antora Docker Antora
@@ -42,6 +43,7 @@
 - https://github.com/apache/solr/tree/main/solr/solr-ref-guide
 - https://github.com/apache/solr/blob/main/dev-docs/ref-guide/antora.adoc
 - https://docs.magnolia-cms.com/welcome/index.html 
+- https://github.com/spring-projects/spring-security/tree/docs-build
 
 ## Complex projects
 ### Asciidoctor
@@ -70,3 +72,5 @@
 - https://github.com/asciidoctor/asciidoctor-docs-ui 
 - https://github.com/apache/felix-antora-ui 
 - https://github.com/apache/solr/tree/main/solr/solr-ref-guide 
+
+

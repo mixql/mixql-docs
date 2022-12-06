@@ -22,9 +22,9 @@
     </div>
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" href="{{{siteRootPath}}}/users-guide/v0.1.0/overview.html">User Guide</a>
-          <a class="navbar-item" href="{{{siteRootPath}}}/users-guide/v0.1.0/faq.html">Contributing</a>
-          <a class="navbar-item" href="{{{siteRootPath}}}/users-guide/v0.1.0/faq.html">FAQ</a>
+        <a class="navbar-item" href="{{relativize site.components.users-guide.url}}">User Guide</a>
+          <a class="navbar-item" href="{{relativize (resolvePageURL 'users-guide::how-it-works.adoc')}}">Contributing</a>
+          <a class="navbar-item" href="{{relativize (resolvePageURL 'users-guide::faq.adoc')}}">FAQ</a>
       </div>
     </div>
   </nav>
