@@ -20,7 +20,7 @@ content:
 #      start_path: docs
     - url: https://github.com/ntlegion/mixql-docs
       branches: main
-      start_path: docs/user-guide
+      start_path: docs/users-guide
     - url: https://github.com/ntlegion/mixql-protobuf
       branches: main
       start_path: docs
