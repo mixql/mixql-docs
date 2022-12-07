@@ -16,11 +16,11 @@ jobs:
         run: npm i antora @antora/lunr-extension
       - name: Generate Site
         run: npx antora antora-playbook.yml
-      - name: Publish to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: public
+#      - name: Publish to GitHub Pages
+#        uses: peaceiris/actions-gh-pages@v3
+#        with:
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
+#          publish_dir: public
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:

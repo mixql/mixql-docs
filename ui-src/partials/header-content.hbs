@@ -1,12 +1,8 @@
 <header class="header">
   <nav class="navbar">
     <div class="navbar-brand">
-
         <a class="navbar-item logo" title="Asciidoctor" href="{{{or site.url siteRootPath}}}"><img src="{{{uiRootPath}}}/img/mixql.png" alt="Asciidoctor" width="48"></a>
         <a class="navbar-item title" href="{{#with (and site.url site.homeUrl)}}{{{@root.site.url}}}{{{this}}}{{else}}{{{siteRootPath}}}{{/with}}">{{site.title}}</a>
-
-<!--      <a class="navbar-item" href="{{{or site.url siteRootPath}}}">{{site.title}}</a>-->
-
       {{#if env.SITE_SEARCH_PROVIDER}}
       <div class="navbar-item search hide-for-print">
         <div id="search-field" class="field">
@@ -22,9 +18,35 @@
     </div>
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" href="{{relativize site.components.users-guide.url}}">User Guide</a>
-          <a class="navbar-item" href="{{relativize (resolvePageURL 'users-guide::how-it-works.adoc')}}">Contributing</a>
-          <a class="navbar-item" href="{{relativize (resolvePageURL 'users-guide::faq.adoc')}}">FAQ</a>
+          <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link" href="#">Why MixQL</a>
+              <div class="navbar-dropdown">
+                  <a class="navbar-item" href="#">Overview</a>
+                  <a class="navbar-item" href="#">Basic Concept</a>
+              </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link" href="{{relativize site.components.users-guide.url}}">User's Guide</a>
+              <div class="navbar-dropdown">
+                  <a class="navbar-item" href="#">Quickstart</a>
+                  <a class="navbar-item" href="#">Installation</a>
+                  <a class="navbar-item" href="#">Reference</a>
+              </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link" href="#">Projects</a>
+              <div class="navbar-dropdown">
+                  <a class="navbar-item" href="#">Overview</a>
+                  <a class="navbar-item" href="{{relativize site.components.mixql-core.url}}">MixQL Core</a>
+                  <a class="navbar-item" href="{{relativize site.components.mixql-protobuf.url}}">MixQL Engine</a>
+                  <a class="navbar-item" href="{{relativize site.components.mixql-protobuf.url}}">MixQL Protobuf</a>
+                  <a class="navbar-item" href="{{relativize site.components.mixql-cluster.url}}">MixQL Cluster</a>
+              </div>
+          </div>
+<!--          <a class="navbar-item" href="{{relativize site.components.users-guide.url}}">Why MixQL</a>-->
+<!--        <a class="navbar-item" href="{{relativize site.components.users-guide.url}}">User Guide</a>-->
+          <a class="navbar-item" href="{{relativize site.components.contributors-guide.url}}">Contributing</a>
+<!--          <a class="navbar-item" href="{{relativize (resolvePageURL 'users-guide::faq.adoc')}}">FAQ</a>-->
       </div>
     </div>
   </nav>

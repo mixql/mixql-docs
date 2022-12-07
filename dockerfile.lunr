@@ -3,6 +3,9 @@
 FROM antora/antora
 RUN yarn global add @antora/lunr-extension
 
-
+# Run local
 # docker build -t local/antora:lunr -f Dockerfile.lunr .
-# docker run -v $PWD:/antora --rm -t local/antora:lunr --extension @antora/lunr-extension  --stacktrace antora-playbook.yml
+# docker run -v $PWD:/antora --rm -t local/antora:lunr --log-level debug ./mixql-docs/antora-playbook-local.yml
+
+# Run from GitHub
+# docker run -v $PWD:/antora --rm -t local/antora:lunr --log-level debug ./mixql-docs/antora-playbook.yml

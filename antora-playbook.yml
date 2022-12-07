@@ -6,18 +6,6 @@ site:
   robots: allow
 content:
   sources:
-    #  For local "author mode" builds check out this antora playbook project
-    #  and the site project next to one another and uncomment the next lines and comment out the other - url
-#    - url: .
-#      start_paths: docs/users-guide
-#      branches:
-#        - HEAD
-#    - url: mixql-core
-#      start_path: docs
-#    - url: mixql-cluster
-#      start_path: docs
-#    - url: mixql-protobuf
-#      start_path: docs
     - url: https://github.com/ntlegion/mixql-docs
       branches: [main]
       start_path: docs/users-guide
@@ -35,15 +23,8 @@ content:
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
-#    url: https://github.com/asciidoctor/asciidoctor-docs-ui/releases/download/prod-293/ui-bundle.zip
     snapshot: true
   supplemental_files: ./ui-src
-#    - path: ui.yml
-#      contents: |
-#        static_files:
-#        - .nojekyll
-#    - path: .nojekyll
-
 
 output:
   clean: true

@@ -1,0 +1,18 @@
+title: Conributor’s Guide
+name: contributors-guide
+# https://semver.org/
+version: ~
+start_page: index.adoc
+
+nav:
+  - modules/ROOT/nav.adoc
+
+asciidoc:
+  attributes:
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: ''
+    url-site: http://mixql.org
+
+

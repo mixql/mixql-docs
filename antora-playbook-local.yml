@@ -1,7 +1,7 @@
 site:
   title: MixQL Project
   # the 404 page and sitemap files only get generated when the url property is set
-  url: https://ntlegion.github.io/mixql-docs/
+  url: http://mixql.org
   start_page: users-guide::index.adoc
   robots: allow
 #urls:
@@ -21,33 +21,12 @@ content:
       start_path: docs
     - url: mixql-protobuf
       start_path: docs
-#    - url: https://github.com/ntlegion/mixql-docs
-#      branches: [main]
-#      start_path: docs/users-guide
-#    - url: https://github.com/ntlegion/mixql-core
-#      branches: [develop]
-#    - url: https://github.com/ntlegion/mixql-protobuf
-#      branches: [main]
-#      start_path: docs
-#    - url: https://github.com/ntlegion/mixql-cluster
-#      branches: [master]
-#      start_path: docs
-
-
 
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
-#    url: https://github.com/asciidoctor/asciidoctor-docs-ui/releases/download/prod-293/ui-bundle.zip
     snapshot: true
   supplemental_files: ./ui-src
-#    - path: ui.yml
-#      contents: |
-#        static_files:
-#        - .nojekyll
-#    - path: .nojekyll
-
-
 output:
   clean: true
   dir: ./public

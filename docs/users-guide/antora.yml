@@ -1,10 +1,7 @@
 title: User’s Guide
 name: users-guide
 # https://semver.org/
-version: 'v0.1.0'
-prerelease: -alpha.1
-#display_version: '0.0.1 Spiny'
-#prerelease: false
+version: ~
 start_page: overview.adoc
 
 nav:
