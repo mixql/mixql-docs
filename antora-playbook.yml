@@ -9,29 +9,27 @@ site:
 content:
   sources:
     - url: https://github.com/ntlegion/mixql-docs
-      branches:
-        - HEAD
       start_paths: docs/contributors-guide , docs/users-guide
     - url: https://github.com/ntlegion/mixql-core
-      branches: [docs]
+      branches: [develop]
       start_path: docs
     - url: https://github.com/ntlegion/mixql-protobuf
-      branches: [docs]
+      branches: [main]
       start_path: docs
     - url: https://github.com/ntlegion/mixql-cluster
-      branches: [docs]
+      branches: [master]
       start_path: docs
     - url: https://github.com/ntlegion/mixql-engine
-      branches: [docs]
+      branches: [main]
       start_path: docs
     - url: https://github.com/ntlegion/mixql-engine-stub
-      branches: [docs]
+      branches: [main]
       start_path: docs
     - url: https://github.com/ntlegion/mixql-engine-sqlite
-      branches: [docs]
+      branches: [main]
       start_path: docs
     - url: https://github.com/ntlegion/mixql-platform-demo
-      branches: [docs]
+      branches: [master]
       start_path: docs
 
 

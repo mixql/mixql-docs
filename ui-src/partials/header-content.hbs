@@ -19,18 +19,18 @@
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
           <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link" href="#">Why MixQL</a>
+              <a class="navbar-link" href="{{relativize (resolvePageURL 'users-guide::features.adoc')}}">Why MixQL</a>
               <div class="navbar-dropdown">
-                  <a class="navbar-item" href="#">Overview</a>
-                  <a class="navbar-item" href="#">Basic Concept</a>
+                  <a class="navbar-item" href="{{relativize (resolvePageURL 'users-guide::overview.adoc')}}">Overview</a>
+                  <a class="navbar-item" href="{{relativize (resolvePageURL 'users-guide::how-it-works.adoc')}}">Basic Concept</a>
               </div>
           </div>
           <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link" href="{{relativize site.components.users-guide.url}}">User's Guide</a>
               <div class="navbar-dropdown">
                   <a class="navbar-item" href="{{relativize (resolvePageURL 'users-guide::get-started/quick-start.adoc')}}">Quickstart</a>
-                  <a class="navbar-item" href="{{relativize (resolvePageURL 'mixql-platform-demo::install::install.adoc')}}">Installation</a>
-                  <a class="navbar-item" href="#">Reference</a>
+<!--                  <a class="navbar-item" href="{{relativize (resolvePageURL 'mixql-platform-demo::install::install.adoc')}}">Installation</a>-->
+<!--                  <a class="navbar-item" href="#">Reference</a>-->
               </div>
           </div>
           <div class="navbar-item has-dropdown is-hoverable">
