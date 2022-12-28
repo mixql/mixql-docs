@@ -9,8 +9,9 @@ site:
 content:
   sources:
     - url: https://github.com/ntlegion/mixql-docs
-      branches: [main]
-      start_path: docs/users-guide, docs/contributors-guide
+      branches:
+        - HEAD
+      start_paths: docs/contributors-guide , docs/users-guide
     - url: https://github.com/ntlegion/mixql-core
       branches: [docs]
       start_path: docs
