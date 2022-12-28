@@ -8,27 +8,27 @@ site:
 #  html_extension_style: drop
 content:
   sources:
-    - url: https://github.com/ntlegion/mixql-docs
+    - url: https://github.com/mixql/mixql-docs
       start_paths: docs/contributors-guide , docs/users-guide
-    - url: https://github.com/ntlegion/mixql-core
+    - url: https://github.com/mixql/mixql-core
       branches: [develop]
       start_path: docs
-    - url: https://github.com/ntlegion/mixql-protobuf
+    - url: https://github.com/mixql/mixql-protobuf
       branches: [main]
       start_path: docs
-    - url: https://github.com/ntlegion/mixql-cluster
+    - url: https://github.com/mixql/mixql-cluster
       branches: [master]
       start_path: docs
-    - url: https://github.com/ntlegion/mixql-engine
+    - url: https://github.com/mixql/mixql-engine
       branches: [main]
       start_path: docs
-    - url: https://github.com/ntlegion/mixql-engine-stub
+    - url: https://github.com/mixql/mixql-engine-stub
       branches: [main]
       start_path: docs
-    - url: https://github.com/ntlegion/mixql-engine-sqlite
+    - url: https://github.com/mixql/mixql-engine-sqlite
       branches: [main]
       start_path: docs
-    - url: https://github.com/ntlegion/mixql-platform-demo
+    - url: https://github.com/mixql/mixql-platform-demo
       branches: [master]
       start_path: docs
 
