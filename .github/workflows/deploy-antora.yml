@@ -1,4 +1,4 @@
-name: Publish to GitHub Pages with Lunr Search Extension
+name: Publish to ftp Antora site with Lunr Search Extension
 on:
   push:
     branches: [main]
