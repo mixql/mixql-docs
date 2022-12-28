@@ -31,4 +31,5 @@ Why?
 == Sensible defaults. Open architecture.
 
 *Start with the default.*
+*Start with the default.*
 
