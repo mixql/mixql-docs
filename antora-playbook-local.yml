@@ -1,7 +1,7 @@
 site:
   title: MixQL Project
   # the 404 page and sitemap files only get generated when the url property is set
-  url: http://mixql.org
+  url: https://mixql.org
   start_page: users-guide::index.adoc
   robots: allow
 #urls:
@@ -11,15 +11,22 @@ content:
     #  For local "author mode" builds check out this antora playbook project
     #  and the site project next to one another and uncomment the next lines and comment out the other - url
     - url: .
-      start_paths: docs/users-guide
+      start_paths: docs/users-guide, docs/contributors-guide
       branches:
         - HEAD
     - url: mixql-core
       start_path: docs
-      branches: develop
+    - url: mixql-protobuf
+      start_path: docs
     - url: mixql-cluster
       start_path: docs
-    - url: mixql-protobuf
+    - url: mixql-engine
+      start_path: docs
+    - url: mixql-engine-stub
+      start_path: docs
+    - url: mixql-engine-sqlite
+      start_path: docs
+    - url: mixql-platform-demo
       start_path: docs
 
 ui:

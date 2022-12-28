@@ -28,19 +28,23 @@
           <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link" href="{{relativize site.components.users-guide.url}}">User's Guide</a>
               <div class="navbar-dropdown">
-                  <a class="navbar-item" href="#">Quickstart</a>
-                  <a class="navbar-item" href="#">Installation</a>
+                  <a class="navbar-item" href="{{relativize (resolvePageURL 'users-guide::get-started/quick-start.adoc')}}">Quickstart</a>
+                  <a class="navbar-item" href="{{relativize (resolvePageURL 'mixql-platform-demo::install::install.adoc')}}">Installation</a>
                   <a class="navbar-item" href="#">Reference</a>
               </div>
           </div>
           <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link" href="#">Projects</a>
+              <a class="navbar-link" href="{{relativize site.components.users-guide.url}}">Projects</a>
               <div class="navbar-dropdown">
-                  <a class="navbar-item" href="#">Overview</a>
+                  <a class="navbar-item" href="{{relativize site.components.users-guide.url}}">Overview</a>
+
                   <a class="navbar-item" href="{{relativize site.components.mixql-core.url}}">MixQL Core</a>
-                  <a class="navbar-item" href="{{relativize site.components.mixql-protobuf.url}}">MixQL Engine</a>
                   <a class="navbar-item" href="{{relativize site.components.mixql-protobuf.url}}">MixQL Protobuf</a>
                   <a class="navbar-item" href="{{relativize site.components.mixql-cluster.url}}">MixQL Cluster</a>
+                  <a class="navbar-item" href="{{relativize site.components.mixql-engine.url}}">MixQL Engine</a>
+                  <a class="navbar-item" href="{{relativize site.components.mixql-engine-stub.url}}">MixQL Engine Stub</a>
+                  <a class="navbar-item" href="{{relativize site.components.mixql-engine-sqlite.url}}">MixQL Engine Sqlite</a>
+                  <a class="navbar-item" href="{{relativize site.components.mixql-platform-demo.url}}">MixQL Platform Demo</a>
               </div>
           </div>
 <!--          <a class="navbar-item" href="{{relativize site.components.users-guide.url}}">Why MixQL</a>-->
