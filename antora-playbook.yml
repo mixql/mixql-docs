@@ -17,7 +17,7 @@ content:
       branches: [main]
       start_path: docs
     - url: https://github.com/mixql/mixql-cluster
-      branches: [master]
+      branches: [main]
       start_path: docs
     - url: https://github.com/mixql/mixql-engine
       branches: [main]
