@@ -2,7 +2,7 @@
 * xref:get-started/quick-start.adoc[]
 * xref:get-started/basic-concepts.adoc[]
 * xref:get-started/architecture.adoc[]
-.MixQL Core
-* xref:mixql-core:ROOT:index.adoc[]
-* xref:mixql-cluster:ROOT:index.adoc[]
+// .MixQL Core
+// * xref:mixql-core:ROOT:index.adoc[]
+// * xref:mixql-cluster:ROOT:index.adoc[]
 //- * xref:{latest-desktop-version}@desktop:ROOT:index.adoc[Desktop App]
