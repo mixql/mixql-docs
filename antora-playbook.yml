@@ -13,25 +13,36 @@ content:
     - url: https://github.com/mixql/mixql-core
       branches: [develop]
       start_path: docs
-    - url: https://github.com/mixql/mixql-protobuf
+    - url: https://github.com/mixql/mixql-platform
       branches: [main]
       start_path: docs
-    - url: https://github.com/mixql/mixql-cluster
+    - url: https://github.com/mixql/mixql-platform
       branches: [main]
-      start_path: docs
-    - url: https://github.com/mixql/mixql-engine
+      start_path: mixql-protobuf/docs
+    - url: https://github.com/mixql/mixql-platform
       branches: [main]
-      start_path: docs
-    - url: https://github.com/mixql/mixql-engine-stub
+      start_path: mixql-cluster/docs
+    - url: https://github.com/mixql/mixql-platform
       branches: [main]
-      start_path: docs
-    - url: https://github.com/mixql/mixql-engine-sqlite
-      branches: [main]
-      start_path: docs
-    - url: https://github.com/mixql/mixql-platform-demo
+      start_path: mixql-engine/docs
+    - url: https://github.com/mixql/mixql-platform
       branches: [master]
+      start_path: mixql-platform-demo/docs
+    - url: https://github.com/mixql/mixql-platform
+      branches: [main]
+      start_path: engines/mixql-engine-stub/docs
+    - url: https://github.com/mixql/mixql-platform
+      branches: [main]
+      start_path: engines/mixql-engine-stub-local/docs
+    - url: https://github.com/mixql/mixql-platform
+      branches: [main]
+      start_path: engines/mixql-engine-sqlite/docs
+    - url: https://github.com/mixql/mixql-platform
+      branches: [main]
+      start_path: engines/mixql-engine-sqlite-local/docs
+    - url: https://github.com/mixql/mixql-test-env
+      branches: [ main ]
       start_path: docs
-
 
 ui:
   bundle:

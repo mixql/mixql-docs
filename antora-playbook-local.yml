@@ -12,21 +12,38 @@ content:
     #  and the site project next to one another and uncomment the next lines and comment out the other - url
     - url: .
       start_paths: docs/users-guide, docs/contributors-guide
-      branches:
-        - HEAD
     - url: mixql-core
+      branches: [develop]
       start_path: docs
-    - url: mixql-protobuf
+    - url: mixql-platform
+      branches: [main]
       start_path: docs
-    - url: mixql-cluster
-      start_path: docs
-    - url: mixql-engine
-      start_path: docs
-    - url: mixql-engine-stub
-      start_path: docs
-    - url: mixql-engine-sqlite
-      start_path: docs
-    - url: mixql-platform-demo
+    - url: mixql-platform
+      branches: [main]
+      start_path: mixql-protobuf/docs
+    - url: mixql-platform
+      branches: [main]
+      start_path: mixql-cluster/docs
+    - url: mixql-platform
+      branches: [main]
+      start_path: mixql-engine/docs
+    - url: mixql-platform
+      branches: [main]
+      start_path: mixql-platform-demo/docs
+    - url: mixql-platform
+      branches: [main]
+      start_path: engines/mixql-engine-stub/docs
+    - url: mixql-platform
+      branches: [main]
+      start_path: engines/mixql-engine-stub-local/docs
+    - url: mixql-platform
+      branches: [main]
+      start_path: engines/mixql-engine-sqlite/docs
+    - url: mixql-platform
+      branches: [main]
+      start_path: engines/mixql-engine-sqlite-local/docs
+    - url: mixql-test-env
+      branches: [main]
       start_path: docs
 
 ui:
