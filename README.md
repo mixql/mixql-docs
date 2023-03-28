@@ -2,24 +2,38 @@
 
 ## Quick build
 
-1. Download all mixql-* repo to into ./mixql. Site will be generated in the mixql-docs/public folder.
-2. Build local Antora builder image
+1. You have [Docker](https://docs.docker.com/desktop/) installed 
+   1. Build local Antora builder image
+    ```
+    docker build -t local/antora:lunr -f ./mixql-docs/Dockerfile.lunr .
+    ```
 
-```
-docker build -t local/antora:lunr -f ./mixql-docs/Dockerfile.lunr
-```
+2. Local build
+   1. Download all needed mixql-* repo into ./mixql. Site will be generated in the mixql-docs/public folder.
+    ```
+    mkdir mixql && mixql
+    git clone https://github.com/mixql/mixql-test-env.git
+    git clone https://github.com/mixql/mixql-platform.git
+    git clone https://github.com/mixql/mixql-core.git
+    ```
+   2. Generate site via local playbook.yml
 
-3. Generate local playbook.yml
-
-```
-docker run -v $PWD:/antora --rm -t local/antora:lunr --extension @antora/lunr-extension  --stacktrace ./mixql-docs/antora-playbook-local.yml
-```
-
+    ```
+   /mixql$ docker run -v $PWD:/antora --rm -t local/antora:lunr --extension @antora/lunr-extension  --stacktrace ./mixql-docs/antora-playbook-local.yml
+    ```
+3. Build from git
+    1. Download mixql-docs repo into ./mixql. Site will be generated in the mixql-docs/public folder.
+    ```
+    mkdir mixql && mixql
+    git clone https://github.com/mixql/mixql-test-env.git
+    git clone https://github.com/mixql/mixql-platform.git
+    git clone https://github.com/mixql/mixql-core.git
+    ```
 4. Generate playbook from git repos
 
 ```
-docker run -v $PWD:/antora --rm -t antora/antora --stacktrace antora-playbook.yml
-  ```  
+docker run -v $PWD:/antora --rm -t local/antora:lunr --stacktrace ./mixql-docs/antora-playbook.yml
+```  
 5. Run mixql-docs/public/index.html
 
 ## Links
