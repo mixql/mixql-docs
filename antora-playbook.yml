@@ -15,6 +15,9 @@ content:
       start_path: docs
     - url: https://github.com/mixql/mixql-platform
       branches: [main]
+      start_path: docs
+    - url: https://github.com/mixql/mixql-platform
+      branches: [main]
       start_path: mixql-protobuf/docs
     - url: https://github.com/mixql/mixql-platform
       branches: [main]

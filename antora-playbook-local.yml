@@ -17,6 +17,9 @@ content:
       start_path: docs
     - url: mixql-platform
       branches: [main]
+      start_path: docs
+    - url: mixql-platform
+      branches: [main]
       start_path: mixql-protobuf/docs
     - url: mixql-platform
       branches: [main]
@@ -25,7 +28,7 @@ content:
       branches: [main]
       start_path: mixql-engine/docs
     - url: mixql-platform
-      branches: [master]
+      branches: [main]
       start_path: mixql-platform-demo/docs
     - url: mixql-platform
       branches: [main]
