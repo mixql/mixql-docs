@@ -1,6 +1,6 @@
 = MixQL Project Start Page
 :navtitle: Try MixQL
-:page-layout: landing
+//:page-layout: landing
 // :page-role: home
 :keywords: sql, engine, spark
 :description: Run SQL on multiple engines from one code. \
