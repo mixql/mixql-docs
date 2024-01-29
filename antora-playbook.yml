@@ -41,7 +41,7 @@ content:
 #      branches: [main]
 #      start_path: engines/mixql-engine-sqlite-local/docs
     - url: https://github.com/mixql/mixql-test-env
-      branches: [ main, branch-0.4.0 ]
+      branches: [ main, branch-0.4.0, develop ]
       start_path: docs
       # updated develop
 
